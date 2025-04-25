@@ -13,7 +13,9 @@ function Github() {
 
 
   return (
-   <div className='text-center m-4 bg-slate-400 text-indigo-100 p-4 text-3xl flex flex-col items-center
+   <div className='text-center m-4 bg-gradient-to-r from-indigo-500 via-sky-500 to-emerald-400
+
+ text-indigo-100 p-4 text-3xl flex flex-col items-center
 '>Github followers : {data.followers}
     <div className='m-4'>
     <img src={data.avatar_url} alt="Git Picture" width={300}  class></img>
